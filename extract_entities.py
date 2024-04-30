@@ -4,6 +4,7 @@ from nltk.corpus import wordnet, stopwords
 import spacy
 import csv
 
+print('extract entities for git')
 
 # Load the spaCy model for English
 nlp = spacy.load('en_core_web_md')
